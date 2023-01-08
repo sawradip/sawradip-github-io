@@ -2,7 +2,7 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Sawradip sahag',
+    title: 'Sawradip Saha',
     description:
       'Sawradip Saha is an AI engineer who specializes in Deep Learning Models and Machine Learning tools',
     siteUrl: 'https://sawradip.github.io', // No trailing slash allowed!
@@ -20,7 +20,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Sawradip Saha',
+        name: 'Sawradip | Portfolio',
         short_name: 'Sawradip saha',
         start_url: '/',
         background_color: config.colors.darkNavy,

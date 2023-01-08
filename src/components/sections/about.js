@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['PyTorch', 'chatGPT', 'Cuda', 'GPT3', 'C#', 'Dall-E2'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +135,37 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hi! I am <b>Sawradip</b>. I am deeply passionate about using my expertise in machine
+              learning and computer vision to tackle real-world problems. With a strong foundation
+              in deep learning and Python programming, I have consistently demonstrated my ability
+              to successfully design and implement complex data processing and model training
+              pipelines.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
+              Fast-forward to today, and I’ve had participated in several international and regional
+              Deep Learning competitions, including{' '}
+              <a href="https://signalprocessingsociety.org/community-involvement/vip-cup-2021-icip-2021/">
+                IEEE VIP CUP 2021
               </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              (1st Place),{' '}
+              <a href="https://www.kaggle.com/competitions/dlsprint/discussion/349991/">
+                Deep Learning Sprint 2022
+              </a>{' '}
+              (2nd Place),{' '}
+              <a href="https://2022.ieeeicip.org/video-and-image-processing-cup//">
+                IEEE VIP CUP 2022
+              </a>{' '}
+              (3rd Place), and{' '}
+              <a href="https://www.robi.com.bd/en/datathon/">Robi Datathon 2.0 (Top 10)</a>. My main
+              focus these days is core deep learning, GPU Programming and making a larger
+              contribution at open-source projects including{' '}
+              <a href="https://github.com/pytorch/pytorch/">PyTorch</a>.
+            </p>
+
+            <p>
+              I recently joined <a href="https://magicmind.me">MagicMind,</a> a Next-generation
+              wellness platform &amp; Spiritual experiences as a Machine Learning Intern.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
