@@ -65,11 +65,11 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
+        I’m a machine learning engineer specializing in building complex data processing and model
+        training pipelines. Currently, I’m focused on contributing to open-source projects , in
+        addition to my role at{' '}
+        <a href="https://magicmind.me/" target="_blank" rel="noreferrer">
+          MagicMind
         </a>
         .
       </p>
@@ -82,7 +82,7 @@ const Hero = () => {
       target="_blank"
       rel="noreferrer"
     >
-      Check out my course!
+      Check out my CV!
     </a>
   );
 

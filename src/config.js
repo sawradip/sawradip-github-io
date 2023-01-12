@@ -11,17 +11,20 @@ module.exports = {
       url: 'https://www.linkedin.com/in/sawradip',
     },
     {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      name: 'Facebook',
+      url: 'https://facebook.com/sawradip',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'https://twitter.com/sawradip',
     },
-
     {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
+      name: 'StackOverflow',
+      url: 'https://stackoverflow.com/users/13945920/sawradip-saha',
+    },
+    {
+      name: 'Kaggle',
+      url: 'https://www.kaggle.com/sawradipsaha',
     },
   ],
 
@@ -31,11 +34,19 @@ module.exports = {
       url: '/#about',
     },
     {
+      name: 'Education',
+      url: '/#education',
+    },
+    {
       name: 'Experience',
       url: '/#jobs',
     },
     {
-      name: 'Work',
+      name: 'Competitions',
+      url: '/#competitions',
+    },
+    {
+      name: 'Project',
       url: '/#projects',
     },
     {

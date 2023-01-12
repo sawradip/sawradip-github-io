@@ -156,10 +156,9 @@ const About = () => {
               <a href="https://2022.ieeeicip.org/video-and-image-processing-cup//">
                 IEEE VIP CUP 2022
               </a>{' '}
-              (3rd Place), and{' '}
-              <a href="https://www.robi.com.bd/en/datathon/">Robi Datathon 2.0 (Top 10)</a>. My main
-              focus these days is core deep learning, GPU Programming and making a larger
-              contribution at open-source projects including{' '}
+              (3rd Place), and <a href="https://www.robi.com.bd/en/datathon/">Robi Datathon 2.0 </a>{' '}
+              (Top 10). My main focus these days is core deep learning, GPU Programming and making a
+              larger contribution at open-source projects including{' '}
               <a href="https://github.com/pytorch/pytorch/">PyTorch</a>.
             </p>
 
@@ -180,7 +179,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/sawra.jpeg"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}

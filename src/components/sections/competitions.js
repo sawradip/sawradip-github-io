@@ -303,11 +303,11 @@ const StyledProject = styled.li`
   }
 `;
 
-const Featured = () => {
+const Competitions = () => {
   const data = useStaticQuery(graphql`
     {
       featured: allMarkdownRemark(
-        filter: { fileAbsolutePath: { regex: "/content/featured/" } }
+        filter: { fileAbsolutePath: { regex: "/content/competitions/" } }
         sort: { fields: [frontmatter___date], order: ASC }
       ) {
         edges {
@@ -322,6 +322,7 @@ const Featured = () => {
               tech
               github
               external
+              position
             }
             html
           }
@@ -345,23 +346,23 @@ const Featured = () => {
   }, []);
 
   return (
-    <section id="projects">
+    <section id="competitions">
       <h2 className="numbered-heading" ref={revealTitle}>
-        Some Projects I’ve Built
+        Some Competitions I've Cracked
       </h2>
 
       <StyledProjectsGrid>
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover } = frontmatter;
+            const { external, title, tech, github, cover, position } = frontmatter;
             const image = getImage(cover);
 
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
                 <div className="project-content">
                   <div>
-                    <p className="project-overline">Featured Project</p>
+                    <p className="project-overline">{position}</p>
 
                     <h3 className="project-title">
                       <a href={external}>{title}</a>
@@ -408,4 +409,4 @@ const Featured = () => {
   );
 };
 
-export default Featured;
+export default Competitions;

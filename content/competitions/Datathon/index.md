@@ -1,9 +1,9 @@
 ---
-date: '3'
-title: 'Build a Spotify Connected App'
-cover: './course-card.png'
-external: 'https://www.newline.co/courses/build-a-spotify-connected-app'
-cta: 'https://www.newline.co/courses/build-a-spotify-connected-app'
+date: '4'
+title: 'Robi Datathon 2.0'
+cover: './datathon2.jpeg'
+external: 'https://www.robi.com.bd/en/datathon'
+position: 'Top 10'
 tech:
   - React
   - Express
