@@ -5,12 +5,18 @@ cover: './datathon2.jpeg'
 external: 'https://www.robi.com.bd/en/datathon'
 position: 'Top 10'
 tech:
-  - React
-  - Express
-  - Spotify API
-  - Styled Components
+  - Big-data
+  - Time-series
+  - Visualization
+  - Analysis
 ---
 
-Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had.
+- <p align="left">The Datathon competition was organized by the country’s leading digital operator Robi. </p>
 
-Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories, this course covers everything from explaining the principles of REST APIs to implementing Spotify's OAuth flow and fetching API data in a React app. By the end of the course, you’ll have an app deployed to the internet you can add to your portfolio.
+- <p align="left"> Datathon 2.0 was powered by ‘AWS’ (Amazon Web Services), ‘Huawei’ was the platinum sponsor, and ‘Brain station’ was the cloud expertise partner, reads a press release.</p>
+
+- <p align="left">More than 2,800 participants from 11 countries took part in the Datathon 2.0 competition. </p>
+
+- <p align="left">Following a tough competition, 100 participants took part in the final round grouped into 25 teams.</p>
+
+- <p align="left">From those 25 teams, top 10 Teams were selected for further Presntation and Analysis.</p>

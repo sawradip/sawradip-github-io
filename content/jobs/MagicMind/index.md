@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: '3'
 title: 'ML Engineer Intern'
 company: 'MagicMind'
 location: 'Cupertino, CA'

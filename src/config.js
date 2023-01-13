@@ -45,10 +45,10 @@ module.exports = {
       name: 'Competitions',
       url: '/#competitions',
     },
-    {
-      name: 'Project',
-      url: '/#projects',
-    },
+    // {
+    //   name: 'Project',
+    //   url: '/#projects',
+    // },
     {
       name: 'Contact',
       url: '/#contact',

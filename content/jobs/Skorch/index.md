@@ -1,5 +1,5 @@
 ---
-date: '3'
+date: '1'
 title: 'Open-source Contributor'
 company: 'Skorch'
 location: 'Remote'

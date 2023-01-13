@@ -6,8 +6,8 @@ import {
   Hero,
   About,
   Jobs,
-  Featured,
-  Projects,
+  // Featured,
+  // Projects,
   Contact,
   Education,
   Competitions,
@@ -25,8 +25,8 @@ const IndexPage = ({ location }) => (
       <Education />
       <Jobs />
       <Competitions />
-      <Featured />
-      <Projects />
+      {/* <Featured />
+      <Projects /> */}
       <Contact />
     </StyledMainContainer>
   </Layout>
