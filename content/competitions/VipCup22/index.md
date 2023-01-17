@@ -5,10 +5,10 @@ cover: './vip22.PNG'
 external: 'https://2022.ieeeicip.org/video-and-image-processing-cup/'
 position: '3rd Position'
 tech:
-  - Speech-2-text
-  - Wav2Vec2
-  - Augmentation
-  - Nemo
+  - Pytorch
+  - GANs
+  - Synthetic
+  - Detection
 ---
 
 - <p align="left"> More than 60 teams from different universities around  the world participated, top three teams competed in the final round at <i>ICIP 2022</i>.</p>
